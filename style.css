@@ -209,11 +209,19 @@ footer{
 
 
 #demo{
+  
   background:linear-gradient(to right ,rgb(255, 0, 217),rgb(5, 173, 229),rgb(93, 5, 255));
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 70px;
+  font-size: 300%;
   
-  font-family:Arial,  Georgia,"cursive", 'Times New Roman', 
- 
+  
+  font-family:Arial,  Georgia,"cursive", 'Times New Roman', ;
+  
+    overflow: visible; /* Allows the content to overflow */
+                  /* Prevents text from wrapping to the next line */
+    width: auto; /* Adjust width as needed */
+    height:auto; /* Adjust height as needed */
+
+  
 }
